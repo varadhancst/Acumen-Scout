@@ -4,4 +4,5 @@ deployment:
     - export DEPLOYPATH=/home/acumensc/repositories/Acumen-Scout
     - /bin/cp index.py * $DEPLOYPATH
     - /usr/local/cpanel/bin/sync-site --user=acumensc
+    - source /home/acumensc/virtualenv/repositories/Acumen-Scout/3.7/bin/activate && cd /home/acumensc/repositories/Acumen-Scout
   version: 2
