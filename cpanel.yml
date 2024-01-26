@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/acumensc/repositories/Acumen-Scout/
-    -/bin/cp -R * $DEPLOYPATH
-  version: 2
