@@ -2,6 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/acumensc/repositories/Acumen-Scout
-    - /bin/cp -R * $DEPLOYPATH
-    - /usr/local/cpanel/bin/sync-site --user=acumensc
+    - /bin/cp index.py $DEPLOYPATH
   version: 2
